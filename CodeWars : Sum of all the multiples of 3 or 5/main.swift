@@ -8,5 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+func findSum(_ n: Int) -> Int {
+   var answer = 0
+    let i = 3
+    for i in i...n
+    {
+        if(i % 3 == 0 || i % 5 == 0){
+            answer += i
+            }
+    }
+    return answer
+}
 
